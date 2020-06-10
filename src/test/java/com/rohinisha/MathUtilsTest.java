@@ -35,7 +35,7 @@ class MathUtilsTest {
     void add() {
        int actual = utils.add(2 ,4);
        //assertEquals(6, actual, () ->"Add Method should add two number");
-       assertThat(5).as("Add method should add two number").isEqualTo(actual);
+       assertThat(6).as("Add method should add two number").isEqualTo(actual);
     }
 
     @Test
